@@ -1,16 +1,24 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One:wght@400;700;900 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One:wght@400;700;900 & family= Sriracha & display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif ;
+    --fonte2:'Passion One', cursiva;
+    --fonte3:'Sriracha', cursiva;
+}
 
 
 *{
     margin: 0px;
     padding: 0px;
 }
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte1);
     min-height: 100vh;
 }
 
@@ -20,12 +28,11 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 header h1{
-    font-family: 'Passion One', cursiva;
     padding-top: 50px;
-   font-size: 100px;
+    font-size: 8vw;
 }
 
 header p{
@@ -45,7 +52,7 @@ header a:hover{
 /*Main*/
 main{
     
-    font-size: 50px;
+    
 }
 
     div{
@@ -53,6 +60,7 @@ main{
        padding-bottom: 10vh;
        line-height: 2em;
        padding-left: 30px;
+       font-size: 3vw;
        
     }
 
@@ -69,7 +77,9 @@ main{
    #flor p{
     color: white;
     background-color: rgba(22, 24, 22, 0.749);
-    width: 700px
+    display: inline-block;
+    padding: 5px;
+    
    
     
    }
@@ -85,7 +95,8 @@ main{
     #cartas p{
         background-color: rgba(0, 0, 0, 0.289);
         color: white;
-        max-width: 700px
+        display: inline-block;
+        padding: 5px;
     }
 
 
