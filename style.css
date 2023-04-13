@@ -19,6 +19,7 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 
 body{
     font-family: var(--fonte1);
+    
     min-height: 100vh;
 }
 
@@ -60,8 +61,12 @@ main{
        padding-bottom: 10vh;
        line-height: 2em;
        padding-left: 30px;
-       font-size: 3vw;
+       font-size: 3.5vw;
        
+    }
+
+    div p{
+        padding-bottom: 2em;
     }
 
     #flor{
@@ -69,9 +74,7 @@ main{
         background-position: center center;
        background-size: cover;
         background-attachment: fixed;
-        height: 100vh;
-        box-shadow: inset;
-        
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.607); 
     }
 
    #flor p{
@@ -79,6 +82,8 @@ main{
     background-color: rgba(22, 24, 22, 0.749);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+   
     
    
     
@@ -89,7 +94,8 @@ main{
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
-        height: 100vh;
+       
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.607); 
     }
 
     #cartas p{
@@ -97,6 +103,10 @@ main{
         color: white;
         display: inline-block;
         padding: 5px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+      
+        
+       
     }
 
 
